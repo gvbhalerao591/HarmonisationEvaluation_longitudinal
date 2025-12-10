@@ -1,0 +1,11 @@
+{
+  "input": ["/path/to/file/Raw.csv", "/path/to/file/Harmonised.csv"],
+  "output": ["results"],
+  "subject": "subjectID",
+  "fixeff": ["Final_Age", "timepoint"],
+  "zscore_fixeff": ["Final_Age"],
+  "raneff": "subjectID",
+  "batch": "Site",
+  "start_col":7,
+  "end_col": 13
+}
